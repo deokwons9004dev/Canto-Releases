@@ -1,0 +1,152 @@
+CANTO END USER LICENSE AGREEMENT
+Last updated 5 October 2026 (Canto 1.0).
+
+© 2026 LonelyDuck Software. All rights reserved.
+
+================================================================================
+
+This agreement is between you and LonelyDuck Software ("we", "us") about your
+use of Canto ("the Software"). By installing or using Canto you agree to it. If
+you do not agree, do not use Canto.
+
+1. YOUR LICENSE
+
+We grant you a personal, non-exclusive, non-transferable license to use the
+Software on Macs you own or control, under the terms below.
+
+  • Canto Free is the Software without a paid license. You may use it for as
+    long as you like.
+  • Canto Pro is a paid license for the number of Macs it covers (one or three).
+    It unlocks the Pro features released while its 12 months of new features
+    run, and you keep those features after that period ends.
+  • A Pro license is for you. Do not share, resell or publish it, and do not use
+    it on more Macs than it covers. To move a license to someone else, ask us.
+
+2. YOUR NOTES STAY ON YOUR MAC
+
+  • Your notes are yours. Canto keeps them on your Mac, in a database encrypted
+    with a key stored in your Mac’s Keychain.
+  • AI features run on your Mac by default, with models you choose to download.
+    Images, scanned documents and recordings are read on your Mac, with macOS’s
+    own frameworks.
+  • We do not receive your notes, your questions or your files, and we do not
+    train anything on them.
+
+3. WHAT CAN LEAVE YOUR MAC, AND ONLY WHEN YOU CHOOSE
+
+Some features send data off your Mac when you use or turn them on. Settings ›
+Memory & privacy › What leaves this Mac lists each one, with a switch for every
+one that can send by itself; when a switch is off, Canto does not send that
+data.
+
+  • Web search: when a chat or research looks something up, the words of the
+    search go to the search services you set up, and pages, including links you
+    paste into a chat, are read from their sites (or through a search service
+    you set up, when a site turns Canto away).
+  • Site icons: with Site icons on, the icon of a web source is fetched from
+    that source’s own site when it is shown.
+  • Pictures from the web: a picture in a note or chat that points at a website
+    loads from that site when it is shown, so the site sees that your Mac opened
+    it; no note text is sent. With it off, such a picture loads only when you
+    press Load on it.
+  • Pages you link to: with it on, Canto fetches the web pages, videos and PDFs
+    your notes link to, from their sites.
+  • Cloud models: off until you connect a cloud provider (such as OpenRouter) or
+    add a server that is not on your Mac, and you can turn them off in What
+    leaves this Mac. When you send a chat to a cloud model, your question, the
+    chat so far and the notes that chat reads go to that provider and to the
+    company that runs the model, under their terms. Unless you change it, Canto
+    asks OpenRouter to use only hosts that keep nothing. Canto never sends notes
+    to a cloud model for work you did not start, such as meetings, titles, tags
+    or search. You pay the provider directly; we never receive your notes, your
+    questions or your key.
+  • Sync: with sync on, your notes go to your own iCloud account, encrypted on
+    your Mac first with a key only your Macs have. Apple cannot read them and we
+    never receive them.
+  • Other apps (MCP): with Canto’s MCP server on, apps you connect can read your
+    notes, and with Pro change them. What they do with your notes is up to those
+    apps.
+  • Publishing: a note you publish goes to LonelyDuck’s publishing service when
+    you press Publish, and is public at its address until you unpublish it.
+  • License checks: Canto Free sends nothing about a license. With Pro, your Mac
+    activates once and then renews with LonelyDuck about twice a week, sending
+    your license, an identifier for your Mac made for that license, and your
+    Mac’s model, never your notes. Canto also reads an anonymous list of
+    switched-off licenses, so a refunded or released license stops working; you
+    can turn these live updates off.
+  • Update checks: at launch and every 6 hours Canto asks GitHub, where its
+    releases are published, whether there is a newer version. You can turn this
+    off and check by hand.
+  • Usage data: off unless you turn it on. It sends LonelyDuck counts of which
+    features are used and anonymous errors, never the text of your notes.
+  • Model downloads: models come from Hugging Face when you choose to download
+    one.
+  • Diagnostics: a report is sent only when you press Send diagnostics, after
+    you have seen everything in it.
+
+macOS itself may download speech or Apple Intelligence models from Apple when
+you use those features.
+
+4. AI ANSWERS
+
+AI models make mistakes. Answers, summaries, transcripts, image descriptions and
+edits that Canto proposes can be wrong or incomplete; check them before you rely
+on them. Models you download are made by others and come with their own
+licenses.
+
+5. WHAT YOU MAY NOT DO
+
+  • Copy, modify, distribute, sell, rent, lend or sublicense the Software.
+  • Reverse engineer, decompile or disassemble the Software, except where the
+    law allows it despite this restriction.
+  • Remove or change any copyright or proprietary notice.
+  • Bypass, disable or interfere with the license checks.
+  • Use the Software, or publish with it, to break the law or anyone’s rights.
+
+6. PURCHASES, RENEWALS AND REFUNDS
+
+  • Prices are shown on lonelyduck.io. A renewal adds 12 months of new features.
+  • Refunds follow our Refund Policy at lonelyduck.io/legal/refunds. A refunded
+    or disputed purchase switches Pro off on the Macs it covered; your notes are
+    not affected.
+
+7. UPDATES AND BETAS
+
+We may provide updates. They can add, change or remove features. Beta versions
+are for testing, may contain bugs and may change your data in ways an earlier
+version cannot read back: keep backups while you use one.
+
+8. THIRD-PARTY SOFTWARE
+
+The Software includes open-source software, a language model for search and
+fonts, each under its own license, which applies to that component. Settings ›
+About › Third-party notices lists them in full. Those licenses do not extend to
+the rest of the Software.
+
+9. OWNERSHIP
+
+The Software is protected by copyright and other laws. We, and our licensors,
+keep all rights in it that this agreement does not grant you.
+
+10. NO WARRANTY
+
+THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
+IMPLIED, INCLUDING BUT NOT LIMITED TO MERCHANTABILITY, FITNESS FOR A PARTICULAR
+PURPOSE AND NON-INFRINGEMENT.
+
+11. LIMITATION OF LIABILITY
+
+TO THE EXTENT THE LAW ALLOWS, IN NO EVENT SHALL WE BE LIABLE FOR ANY DAMAGES
+(INCLUDING LOST PROFITS, LOST DATA OR BUSINESS INTERRUPTION) ARISING FROM THE
+USE OF, OR INABILITY TO USE, THE SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF
+SUCH DAMAGES.
+
+12. TERMINATION
+
+This agreement lasts until it ends. It ends automatically if you break it; you
+must then stop using the Software and delete your copies. Your notes stay yours:
+Canto lets you export them at any time.
+
+================================================================================
+
+Questions or support: https://lonelyduck.io/canto
