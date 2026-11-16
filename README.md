@@ -24,7 +24,6 @@
 
 <p align="center">
   <a href="https://github.com/deokwons9004dev/Canto-Releases/releases"><img alt="Newest release" src="https://img.shields.io/github/v/release/deokwons9004dev/Canto-Releases?include_prereleases&sort=semver&label=newest&color=1d7a6a"></a>
-  <a href="https://github.com/deokwons9004dev/Canto-Releases/releases/latest"><img alt="Stable release" src="https://img.shields.io/github/v/release/deokwons9004dev/Canto-Releases?label=stable&color=535c58"></a>
   <img alt="macOS 14 or later" src="https://img.shields.io/badge/macOS-14%20or%20later-535c58">
   <img alt="Apple silicon" src="https://img.shields.io/badge/Apple%20silicon-M1%20or%20later-535c58">
 </p>
@@ -37,16 +36,11 @@ This repository is where Canto's signed builds are published, and where the app 
 
 ## Download
 
-The easiest way is **[lonelyduck.io/canto](https://lonelyduck.io/canto)**, which always offers the newest build. You can also pick one from [Releases](https://github.com/deokwons9004dev/Canto-Releases/releases):
-
-| | Where to find it | Who it's for |
-| --- | --- | --- |
-| **Canto 1.0 beta** | The newest **Pre-release** at the top of Releases | Most people. It's the default download on the website, and it keeps itself up to date with newer betas. |
-| **Canto 0.10.3** | The release marked **Latest** | Anyone who would rather wait until 1.0 is out of beta. |
+Canto 1.0 is in beta, and it's the only Canto we offer: Canto 0.x is retired. Download the newest at **[lonelyduck.io/canto](https://lonelyduck.io/canto)**, or the `.dmg` of the release with the highest version number on [Releases](https://github.com/deokwons9004dev/Canto-Releases/releases). It keeps itself up to date with newer betas, and moves to 1.0 when it's out.
 
 **To install:** download the `.dmg`, open it, and drag Canto into Applications. Every build is signed with my Apple Developer ID and notarized by Apple, so macOS opens it after its usual "downloaded from the internet" question.
 
-**Coming from 0.x?** The first time 1.0 opens, it backs up your notes database and then updates it. Your license moves over by itself and now covers 3 Macs, with 12 months of new features from 1.0. The beta 1 release notes end with "Going back to 0.10.3", in case you need to.
+**Coming from 0.10?** Install the newest Canto over it. The first time 1.0 opens your notes, it saves a copy and updates them; after that, 0.10 can't open them. Your license moves over by itself and now covers 3 Macs, with every new Pro feature, for life. If Canto 0.10.3 ever says "Failed to open the database", choose **Exit**, never **Reset Database (Data Loss)**, and install the newest Canto: see [Upgrading from Canto 0.10](https://lonelyduck.io/docs/canto/upgrade).
 
 ## A look inside
 
@@ -102,7 +96,7 @@ The whole app is free on one Mac, with no account. Pro is a one-time purchase th
 | Encrypted iCloud sync between your Macs | | | ✓ |
 
 - **Try first:** every Pro feature can be used three times on Free.
-- **No subscription:** Pro includes the Pro features released in the 12 months after you buy, and you keep them for good. Another 12 months is optional ($19, or $15 if you renew before your date). Every update, bug fix and security fix stays free for everyone.
+- **No subscription:** Pro is one payment, and it includes every new Pro feature, for life. Every update, bug fix and security fix stays free for everyone.
 - **Students and teachers:** write to support@lonelyduck.io from your school address for a discount.
 
 Prices are in US dollars; card payments in Korea can be in won. See [lonelyduck.io/canto](https://lonelyduck.io/canto#pricing) for current prices.
@@ -117,6 +111,8 @@ Prices are in US dollars; card payments in Korea can be in won. See [lonelyduck.
 ## Updates
 
 Canto checks this repository for a newer version when it starts and every 6 hours. If you installed a beta, it follows betas. You can check right away in Settings › Updates, or turn checks off in Settings › Memory & privacy › What leaves this Mac › Update checks.
+
+A copy of Canto 0.10.3 moves to 1.0 when you install the newest Canto over it, or, once a 1.0 release is marked Latest here, when 0.10.3 offers that update and you press **Restart**. Either way it's one way: once 1.0 has opened your notes, 0.10 can't.
 
 What changed in each version is in its release notes on the [Releases](https://github.com/deokwons9004dev/Canto-Releases/releases) page, and in Canto under What's New.
 
